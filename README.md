@@ -1,5 +1,5 @@
 
-# Welcome to my [website](https://bernhardhust.netlify.app/>)
+# Welcome to my [website](https://bernhardhust.netlify.app)
 
 My name is Bernhard Hustomo
 
