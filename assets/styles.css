@@ -1,7 +1,14 @@
 body {
     margin: 0 auto;
     max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
     font-family: "Georgia", "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 * {
