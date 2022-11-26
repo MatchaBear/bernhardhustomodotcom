@@ -5,3 +5,31 @@ body {
 * {
     box-sizing: border-box;
 }
+
+.first-box {
+    background-color: #F94144;
+}
+.second-box {
+    background-color: #F3722C;
+}
+.third-box {
+    background-color: #F8961E;
+}
+.fourth-box {
+    background-color: #F9844A;
+}
+.fifth-box {
+    background-color: #F9C74F;
+}
+.sixth-box {
+    background-color: #90BE6D;
+}
+.seventh-box {
+    background-color: #43AA8B;
+}
+.eighth-box {
+    background-color: #4D908E;
+}
+.ninth-box {
+    background-color: #577590;
+}
