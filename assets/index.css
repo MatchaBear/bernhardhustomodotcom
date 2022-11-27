@@ -2,12 +2,11 @@ body {
   margin: 0 auto;
   line-height: 1.5;
   color: #555;
-  font-family: "Roboto", "Georgia", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-  background-color: #263d36;
-  background-image: url("header.jpg");
+  background-color: #2b2c28;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,6 +68,9 @@ pre {
   display: flex;
 }
 
+.home-full-name {
+  font-family: "Dancing Script", cursive;
+}
 .icon {
   width: 50px;
   height: 50px;
