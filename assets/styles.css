@@ -1,104 +1,118 @@
 body {
-    margin: 0 auto;
-    max-width: 50em;
-    line-height: 1.5;
-    padding: 4em 1em;
-    color: #555;
-    font-family: "Roboto", "Georgia", "Helvetica", "Arial", sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+  color: #555;
+  font-family: "Roboto", "Georgia", "Helvetica", "Arial", sans-serif;
 }
 
 header {
-    background-color: #263d36;
-    background-image: url("header.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 1.2;
-    padding: 10vw 2em;
-    text-align: center;
-}
-
-.content-main {
-    max-width: 45rem;
-    margin-inline: auto;
+  background-color: #263d36;
+  background-image: url("header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
 }
 
 h2 {
-    margin-top: 1em;
-    padding-top: 1em;
+  margin-top: 1em;
+  padding-top: 1em;
 }
 
 h1,
 h2,
 strong {
-    color: #333;
+  color: #333;
 }
 
 code,
 pre {
-    background: #eee;
+  background: #eee;
 }
 
 code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
+  padding: 2px 4px;
+  vertical-align: text-bottom;
 }
 
 pre {
-    padding: 1em;
+  padding: 1em;
 }
 
 a {
-    color: #e81c4f;
+  color: #e81c4f;
 }
 
 body {
-    color: #566b78;
+  color: #566b78;
 }
 
 code,
 pre {
-    background: #f5f7f9;
-    border-bottom: 1px solid #d8dee9;
-    color: #a7adba;
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
 }
 
 pre {
-    border-left: 2px solid #69c;
+  border-left: 2px solid #69c;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navigation-items {
+  list-style-type: none;
+  display: flex;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.content-main {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.all-box-container {
+  max-width: 1000px;
+  width: 100%;
 }
 
 .row-box-container {
-    display: flex;
+  display: flex;
 }
 
 .first-box {
-    background-color: #F94144;
+  background-color: #f94144;
 }
 .second-box {
-    background-color: #F3722C;
+  background-color: #f3722c;
 }
 .third-box {
-    background-color: #F8961E;
+  background-color: #f8961e;
 }
 .fourth-box {
-    background-color: #F9844A;
+  background-color: #f9844a;
 }
 .fifth-box {
-    background-color: #F9C74F;
+  background-color: #f9c74f;
 }
 .sixth-box {
-    background-color: #90BE6D;
+  background-color: #90be6d;
 }
 .seventh-box {
-    background-color: #43AA8B;
+  background-color: #43aa8b;
 }
 .eighth-box {
-    background-color: #4D908E;
+  background-color: #4d908e;
 }
 .ninth-box {
-    background-color: #577590;
+  background-color: #577590;
 }
