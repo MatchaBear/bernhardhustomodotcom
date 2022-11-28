@@ -7,19 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/assets/index.css" />
     <title>Home - Bernhard Hustomo</title>
   </head>
   <body>
-    <header>
-      <nav class="navigation">
-        <ul class="navigation-items">
-          <li class="home-full-name">
-            <a href="/">Bernhard Hustomo</a>
-          </li>
+    <nav id="nav-top">
+      <div id="nav-name-top-left" class="nav-link-top">
+        <a href="/">Bernhard Hustomo</a>
+      </div>
+      <div id="nav-top-right">
+        <ul class="nav-items">
           <li>
             <a href="/">
               <img
@@ -56,12 +56,14 @@
               />
             </a>
           </li>
-          <li><a href="/">Sign In</a></li>
+          <div id="nav-signin-top-right" class="nav-single-item">
+            <a href="/">Sign In</a>
+          </div>
         </ul>
-      </nav>
-    </header>
-
-    <main class="content-main">
+      </div>
+    </nav>
+    <header class="nonav"><p>This is header</p></header>
+    <main class="nonav">
       <section class="all-box-container">
         <div class="row-box-container">
           <div class="first-box">
@@ -98,24 +100,21 @@
         </div>
       </section>
     </main>
-
-    <footer>
-      <div>
-        <p>
-          <span>Copyright &copy; 2022</span>
-          <a href="https://example.com">Bernhard Hustomo</a>
-          <span>All rights reserved</span>
-        </p>
-      </div>
+    <footer class="nonav">
+      <p>
+        <span>Copyright &copy; 2022</span>
+        <a href="https://example.com">Bernhard Hustomo</a>
+        <span>All rights reserved</span>
+      </p>
     </footer>
 
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/myblog">My Blog</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/etc">Misc</a></li>
-        <li><a href="/about">About Me</a></li>
+    <nav id="nav-bottom-float">
+      <ul class="nav-items">
+        <li class="nav-single-item"><a href="/myblog">My Blog</a></li>
+        <li class="nav-single-item"><a href="/">Home</a></li>
+        <li class="nav-single-item"><a href="/portfolio">Portfolio</a></li>
+        <li class="nav-single-item"><a href="/etc">Misc</a></li>
+        <li class="nav-single-item"><a href="/about">About Me</a></li>
       </ul>
     </nav>
   </body>

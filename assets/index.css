@@ -1,94 +1,79 @@
 body {
   margin: 0 auto;
-  line-height: 1.5;
-  color: #555;
+  color: #566b78;
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  background-color: #2b2c28;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 1.2;
-  padding: 10vw 2em;
-  text-align: center;
-}
-
-h2 {
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-h1,
-h2,
-strong {
-  color: #333;
-}
-
-code,
-pre {
-  background: #eee;
-}
-
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-}
-
-pre {
-  padding: 1em;
-}
-
 a {
-  color: #e81c4f;
+  color: #fff;
+  text-decoration: none;
 }
 
-body {
-  color: #566b78;
-}
-
-code,
-pre {
-  background: #f5f7f9;
-  border-bottom: 1px solid #d8dee9;
-  color: #a7adba;
-}
-
-pre {
-  border-left: 2px solid #69c;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.navigation-items {
-  list-style-type: none;
+#nav-top {
   display: flex;
+  justify-content: space-between;
+  background-color: #2b2c28;
+  line-height: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.home-full-name {
+#nav-name-top-left {
+  display: flex;
+  align-items: center;
   font-family: "Dancing Script", cursive;
 }
-.icon {
-  width: 50px;
-  height: 50px;
+
+#nav-top-right {
+  display: flex;
+  align-items: center;
 }
 
-.content-main {
-  margin-inline: auto;
+#nav-signin-top-right {
+  display: flex;
+  align-items: center;
+}
+
+#nav-bottom-float {
   display: flex;
   justify-content: center;
+  background-color: #2b2c28;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0.0625rem;
+}
+
+.nav-single-item {
+  padding: 0.5rem;
+}
+
+.nonav {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #000;
+}
+
+.icon {
+  width: 2rem;
+  padding: 0.0625rem;
 }
 
 .all-box-container {
+  display: flex;
+  flex-flow: column;
   max-width: 1000px;
   width: 100%;
+  border: 1rem ridge rgba(211, 220, 50, 0.6);
+  padding: 0.1rem;
 }
 
 .row-box-container {
   display: flex;
+  border: 1rem ridge rgb(0, 204, 255);
+  padding: 0.1rem;
 }
 
 .first-box {
