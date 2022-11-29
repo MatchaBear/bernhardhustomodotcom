@@ -1,4 +1,6 @@
-# Welcome to my [Netlify website](https://bernhardhust.netlify.app) / [Vercel website](https://project-personal-web.vercel.app/)
+# Bernhard Hust Website
+
+Check it out here <https://bernhardhust.netlify.app> or <https://bernhardhust.vercel.app>
 
 My name is Bernhard Hustomo.
 
