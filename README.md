@@ -9,7 +9,7 @@ I am a professional working outside of my country of origin.
 
 Wishful to return to my home country for good to provide inspirational education across the archipelago.
 
-This website is inspired by <https://gal-rabaniam.com>
+This website is mainly inspired by <https://gal-rabaniam.com>
 
 Inspiration for floating bottom navigation bar: <https://www.awwwards.com/>
 
