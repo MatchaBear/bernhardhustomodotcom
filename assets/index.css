@@ -52,7 +52,6 @@ a {
 
 .nonav {
   display: flex;
-  flex-flow: column wrap;
   background-color: #000;
 }
 
@@ -63,43 +62,69 @@ a {
 
 .all-box-container {
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   max-width: 1000px;
   width: 100%;
-  border: 1rem ridge rgba(211, 220, 50, 0.6);
+  border: 0.125rem ridge rgba(211, 220, 50, 0.6);
   padding: 0.1rem;
+  margin: 1rem;
 }
 
 .row-box-container {
   display: flex;
-  border: 1rem ridge rgb(0, 204, 255);
-  padding: 0.1rem;
+  justify-content: center;
+  border: 0.125rem ridge rgb(0, 204, 255);
+  margin-inline: 0.0625rem 1rem;
 }
 
 .first-box {
   background-color: #f94144;
+  flex: 1 1 auto;
+  margin: 0.125rem;
 }
+
 .second-box {
   background-color: #f3722c;
+  flex: 1.25 1 auto;
+  margin: 0.125rem;
 }
+
 .third-box {
   background-color: #f8961e;
+  flex: 2 1 auto;
+  margin: 0.125rem;
 }
 .fourth-box {
   background-color: #f9844a;
+  flex: 1 1 auto;
+  margin: 0.125rem;
 }
+
 .fifth-box {
   background-color: #f9c74f;
+  flex: 1 1 auto;
+  margin: 0.125rem;
 }
+
 .sixth-box {
   background-color: #90be6d;
+  flex: 1 1 auto;
+  margin: 0.125rem;
 }
 .seventh-box {
   background-color: #43aa8b;
+  flex: 2 1 auto;
+  margin: 0.125rem;
 }
+
 .eighth-box {
   background-color: #4d908e;
+  flex: 1.25 1 auto;
+  margin: 0.125rem;
 }
+
 .ninth-box {
   background-color: #577590;
+  flex: 1 1 auto;
+  margin: 0.125rem;
 }
