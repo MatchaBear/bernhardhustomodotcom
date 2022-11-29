@@ -4,7 +4,7 @@ My name is Bernhard Hustomo.
 
 I am a professional working outside of my country of origin.
 
-Wishful to return to my home country for good to provide professional education across the archipelago.
+Wishful to return to my home country for good to provide inspirational education across the archipelago.
 
 This website is inspired by [Gal Rabaniam Portfolio](https://gal-rabaniam.com).
 
