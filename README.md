@@ -13,4 +13,4 @@ This website is inspired by <https://gal-rabaniam.com>
 
 Inspiration for floating bottom navigation bar: <https://www.awwwards.com/>
 
-You can find my attempt to 'copy' her site: [Figma](https://figma.com/file/BpGEDpszCKpyUQE6c6sfPs/bernhardhust.com)
+You can find my attempt to 'copy' her site [here](https://figma.com/file/BpGEDpszCKpyUQE6c6sfPs/bernhardhust.com) with Figma.
