@@ -67,7 +67,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background: #000;
 }
 
 .icon {
@@ -100,53 +100,81 @@ a {
 }
 
 .first.box {
-  background-color: #f94144;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 auto;
   margin: 0.25rem;
+  background: #f94144;
 }
 
 .second.box {
-  background-color: #f3722c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1.25 1 auto;
   margin: 0.25rem;
+  background: #f3722c;
 }
 
 .third.box {
-  background-color: #f8961e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 2 1 auto;
   margin: 0.25rem;
+  background: #f8961e;
 }
 .fourth.box {
-  background-color: #f9844a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 auto;
   margin: 0.25rem;
+  background: #f9844a;
 }
 
 .fifth.box {
-  background-color: #f9c74f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   flex: 1 1 auto;
   margin: 0.25rem;
+  background: #f9c74f;
 }
 
 .sixth.box {
-  background-color: #90be6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 auto;
   margin: 0.25rem;
+  background: #90be6d;
 }
 .seventh.box {
-  background-color: #43aa8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 2 1 auto;
   margin: 0.25rem;
+  background: #43aa8b;
 }
 
 .eighth.box {
-  background-color: #4d908e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1.25 1 auto;
   margin: 0.25rem;
+  background: #4d908e;
 }
 
 .ninth.box {
-  background-color: #577590;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 auto;
   margin: 0.25rem;
+  background: #577590;
 }
