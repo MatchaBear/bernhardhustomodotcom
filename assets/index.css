@@ -33,6 +33,7 @@ a {
   display: flex;
   align-items: center;
   font-family: "Dancing Script", cursive;
+  font-size: xx-large;
 }
 
 #nav-top-right {
@@ -73,6 +74,7 @@ a {
 .icon {
   width: 2rem;
   padding: 0.0625rem;
+  margin: 10px;
 }
 
 .all-box-container {
