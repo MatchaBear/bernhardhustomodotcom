@@ -99,6 +99,10 @@ a {
   border-radius: 0.125rem;
 }
 
+.footer.nonav {
+  font-size: xx-small;
+}
+
 .first.box {
   display: flex;
   justify-content: center;
