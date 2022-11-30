@@ -13,7 +13,7 @@ a {
 .root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 102vh;
 }
 
 .main {
@@ -23,8 +23,9 @@ a {
 #nav-top {
   display: flex;
   justify-content: space-between;
-  background-color: #2b2c28;
   line-height: 0;
+  max-height: 20vh;
+  background: #2b2c28;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -47,7 +48,8 @@ a {
 #nav-bottom-float {
   display: flex;
   justify-content: center;
-  background-color: #2b2c28;
+  max-height: 20vh;
+  background: #2b2c28;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -63,6 +65,8 @@ a {
 
 .nonav {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #000;
 }
 
@@ -73,10 +77,13 @@ a {
 
 .all-box-container {
   display: flex;
+  justify-content: center;
   flex-flow: column wrap;
   max-width: 1000px;
   width: 100%;
-  border: 0.125rem ridge rgba(211, 220, 50, 0.6);
+  min-height: 100px;
+  height: 80%;
+  /* border: 0.25rem ridge rgba(211, 220, 50, 0.6); */
   padding: 0.1rem;
   margin: 1rem;
 }
@@ -84,63 +91,62 @@ a {
 .row-box-container {
   display: flex;
   justify-content: center;
-  border: 0.125rem ridge rgb(0, 204, 255);
-  margin-inline: 0.0625rem 1rem;
+  /* border: 0.25rem ridge rgb(0, 204, 255); */
 }
 
 .box {
-  height: 100px;
-  border-radius: 0.5rem;
+  height: 20vh;
+  border-radius: 0.125rem;
 }
 
 .first.box {
   background-color: #f94144;
   flex: 1 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 
 .second.box {
   background-color: #f3722c;
   flex: 1.25 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 
 .third.box {
   background-color: #f8961e;
   flex: 2 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 .fourth.box {
   background-color: #f9844a;
   flex: 1 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 
 .fifth.box {
   background-color: #f9c74f;
   flex: 1 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 
 .sixth.box {
   background-color: #90be6d;
   flex: 1 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 .seventh.box {
   background-color: #43aa8b;
   flex: 2 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 
 .eighth.box {
   background-color: #4d908e;
   flex: 1.25 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
 
 .ninth.box {
   background-color: #577590;
   flex: 1 1 auto;
-  margin: 0.125rem;
+  margin: 0.25rem;
 }
