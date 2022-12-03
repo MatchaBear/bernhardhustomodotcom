@@ -7,49 +7,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/assets/index.css" />
     <title>About Me - Bernhard Hustomo</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="home-full-name">
-            <a href="/">Bernhard Hustomo</a>
-          </li>
+  <body class="root">
+    <nav id="nav-top">
+      <div id="nav-name-top-left" class="nav-link-top">
+        <a href="/">Bernhard Hustomo</a>
+      </div>
+      <div id="nav-top-right">
+        <ul class="nav-items">
           <li>
-            <a href="/"
-              ><img
+            <a href="/">
+              <img
+                class="icon"
                 src="/assets/images/yinyang.svg"
                 alt="Toggle to Dark Mode or Bright Mode"
-            /></a>
+              />
+            </a>
           </li>
           <li>
-            <a href="/"
-              ><img
+            <a href="/">
+              <img
+                class="icon"
                 src="/assets/images/mobile-version.svg"
                 alt="Toggle to Mobile Version"
-            /></a>
+              />
+            </a>
           </li>
           <li>
-            <a href="/"
-              ><img
+            <a href="/">
+              <img
+                class="icon"
                 src="/assets/images/desktop-version.svg"
                 alt="Toggle to Desktop Version"
-            /></a>
+              />
+            </a>
           </li>
           <li>
-            <a href="/"
-              ><img src="/assets/images/account.svg" alt="Account Icon"
-            /></a>
+            <a href="/">
+              <img
+                class="icon"
+                src="/assets/images/account.svg"
+                alt="Account Icon"
+              />
+            </a>
           </li>
-          <li><a href="/">Sign In</a></li>
+          <div id="nav-signin-top-right" class="nav-single-item">
+            <a href="/">Sign In</a>
+          </div>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <main>
       <section>
@@ -87,22 +99,22 @@
       </section>
     </main>
 
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/myblog">My Blog</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/about">About Me</a></li>
-        </ul>
-      </nav>
-      <div>
-        <p>
-          <span>Copyright &copy; 2022</span>
-          <a href="https://example.com">Bernhard Hustomo</a>
-          <span>All rights reserved</span>
-        </p>
-      </div>
+    <footer class="footer nonav">
+      <p>
+        <span>Copyright &copy; 2022</span>
+        <a href="/">Bernhard Hustomo</a>
+        <span>All rights reserved</span>
+      </p>
     </footer>
+
+    <nav id="nav-bottom-float">
+      <ul class="nav-items">
+        <li class="nav-single-item"><a href="/">Home</a></li>
+        <li class="nav-single-item"><a href="/about">About</a></li>
+        <li class="nav-single-item"><a href="/myblog">My Blog</a></li>
+        <li class="nav-single-item"><a href="/portfolio">Portfolio</a></li>
+        <li class="nav-single-item"><a href="/etc">Misc</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
