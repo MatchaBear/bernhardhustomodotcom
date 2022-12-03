@@ -185,3 +185,7 @@ a {
   margin: 0.25rem;
   background: #577590;
 }
+
+.mobile-screenshot {
+  max-width: 1250px;
+}
