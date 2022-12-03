@@ -189,3 +189,14 @@ a {
 .mobile-screenshot {
   max-width: 1250px;
 }
+
+.paragraph {
+  padding-inline: 15px;
+}
+
+.iframe.map {
+  flex-wrap: wrap;
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
