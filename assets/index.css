@@ -78,10 +78,22 @@ a {
   margin: 10px;
 }
 
-.all-box-container {
+.box-flex-column-container {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
+  max-width: 1250px;
+  width: 100%;
+  min-height: 100px;
+  height: 80%;
+  /* border: 0.25rem ridge rgba(211, 220, 50, 0.6); */
+  padding: 0.1rem;
+  margin: 1rem;
+}
+
+.box-flex-row-container {
+  display: flex;
+  justify-content: center;
   max-width: 1250px;
   width: 100%;
   min-height: 100px;
