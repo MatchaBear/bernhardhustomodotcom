@@ -16,11 +16,9 @@ a {
   min-height: 102vh;
 }
 
-.main {
-  flex: 1;
-}
 
-#nav-top {
+
+.nav-top {
   display: flex;
   justify-content: space-between;
   line-height: 0;
@@ -30,24 +28,24 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
-#nav-name-top-left {
+.nav-name-top-left {
   display: flex;
   align-items: center;
   font-family: "Dancing Script", cursive;
   font-size: xx-large;
 }
 
-#nav-top-right {
+.nav-top-right {
   display: flex;
   align-items: center;
 }
 
-#nav-signin-top-right {
+.nav-signin-top-right {
   display: flex;
   align-items: center;
 }
 
-#nav-bottom-float {
+.nav-bottom-float {
   display: flex;
   justify-content: center;
   max-height: 20vh;
@@ -72,6 +70,10 @@ a {
   background: #000;
 }
 
+.main {
+  flex: 1;
+}
+
 .icon {
   width: 2rem;
   padding: 0.0625rem;
@@ -80,8 +82,7 @@ a {
 
 .box-flex-column-container {
   display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
+  flex-flow: column;
   max-width: 1250px;
   width: 100%;
   min-height: 100px;
@@ -94,6 +95,7 @@ a {
 .box-flex-row-container {
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
   max-width: 1250px;
   width: 100%;
   min-height: 100px;
@@ -212,3 +214,4 @@ a {
   height: 450px;
   border: 0;
 }
+
