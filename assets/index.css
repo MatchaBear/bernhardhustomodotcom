@@ -82,7 +82,7 @@ a {
 
 .box-flex-column-container {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   max-width: 1250px;
   width: 100%;
   min-height: 100px;
@@ -146,6 +146,7 @@ a {
   margin: 0.25rem;
   background: #f8961e;
 }
+
 .fourth.box {
   display: flex;
   justify-content: center;
