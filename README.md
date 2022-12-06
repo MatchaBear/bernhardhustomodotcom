@@ -3,8 +3,8 @@
 
 Check it out at: <https://bernhardhustomo.com>
 
-Netlify: <https://bernhardhust.netlify.app>;
 Vercel: <https://bernhardhust.vercel.app>
+Netlify: <https://bernhardhust.netlify.app>
 
 My name is Bernhard Hustomo.
 
