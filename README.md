@@ -15,6 +15,7 @@ Wishful to return to my home country for good to provide inspirational education
 This website is mainly inspired by <https://gal-rabaniam.com>
 
 Other inspirations:
+
 - for floating bottom navigation bar: <https://www.awwwards.com>
 - for navigation button animation: <https://vercel.com/dashboard>
 
