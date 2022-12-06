@@ -1,7 +1,7 @@
 
 # Bernhard Hustomo Website
 
-Check it out here: bernhardhustomo.com
+Check it out here: <https://bernhardhustomo.com>
 
 Netlify: <https://bernhardhust.netlify.app>;
 Vercel: <https://bernhardhust.vercel.app>
