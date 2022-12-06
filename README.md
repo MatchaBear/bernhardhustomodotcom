@@ -1,7 +1,10 @@
 
-# Bernhardhust Website
+# Bernhard Hustomo Website
 
-Check it out here <https://bernhardhust.netlify.app> or <https://bernhardhust.vercel.app>
+Check it out here: bernhardhustomo.com
+
+Netlify: <https://bernhardhust.netlify.app>;
+Vercel: <https://bernhardhust.vercel.app>
 
 My name is Bernhard Hustomo.
 
