@@ -1,7 +1,7 @@
 
-# Bernhard Hustomo Website
+# Welcome to Bernhard Hustomo Website's Source Code
 
-Check it out here: <https://bernhardhustomo.com>
+Check it out at: <https://bernhardhustomo.com>
 
 Netlify: <https://bernhardhust.netlify.app>;
 Vercel: <https://bernhardhust.vercel.app>
